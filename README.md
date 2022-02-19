@@ -3,4 +3,5 @@ This project develops a comprehensive Machine Learning framework for predicting 
 The modules include preprocessing steps, data selectinon procedures, variety ML model training/optimizations, evaluation procedures suitable for stakeholder objectives,
 variety of experiments and interpretible policy guidelines based on the results. 
 
-Please refer to the full report available on the repository for the detailed documentation and results. 
+Please refer to the full report for the detailed documentation and results available on the following link:
+https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4038908_code3650009.pdf?abstractid=4038908&mirid=1
