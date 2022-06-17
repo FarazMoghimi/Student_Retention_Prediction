@@ -28,7 +28,7 @@ df=df.drop(columns='emplid')
 from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(df.iloc[:,:29]
                                                     , df['label'] , test_size=0.3, random_state=42, stratify=df['label'])
-
+##
 scaler = MinMaxScaler(feature_range=[0, 1])
 x_train=scaler.fit_transform(x_train)
 x_test=scaler.fit_transform(x_test)
