@@ -29,7 +29,7 @@ x_train=scaler.fit_transform(x_train)
 x_test=scaler.fit_transform(x_test)
 
 #grid search: parallel hyperparametertunning
-
+#this acceleratess
 import multiprocessing
 n_cpus = multiprocessing.cpu_count()
 #round 1 of cv 
